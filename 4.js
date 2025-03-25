@@ -7,7 +7,7 @@ while (Guess_Num !== FavNum){ // this loop will continue as long as the user wil
     if (Guess_Num > FavNum){ // if the number entered is greater than the favnum it will display tooo high.
         console.log("too high.")
     }else{
-        console.log("too low!") // if the number is too lower than the fav num it will show too low.
+        console.log("too low!") // if the number is lower than the fav num it will show too low.
     }
     Guess_Num = parseInt(prompt("Guess your favorite num!"))
 }
